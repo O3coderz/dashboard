@@ -1,0 +1,502 @@
+@media (max-width: 768px){
+    
+
+    .wrapper {
+        display: unset;
+    }
+
+    .menu-bar {
+        width: 100%;
+        display: block;
+        padding-left: 120px;
+        margin: 0;
+      
+    }
+
+    .content-search {
+        margin: 50px;
+       
+        width:  95%;
+    }
+
+    /*.see-all {
+        margin-left: 60px;
+        width: 95%;
+    }*/
+    /*23-10-21
+    .container {
+        display: grid;
+         margin: 0 0 0 80px;
+        grid-gap: 20px;
+        grid-template-columns: auto;
+    }
+    23-10-21
+    .new-popular {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: auto;
+        
+        overflow: hidden;
+    }*/
+
+    .index-popular-project {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: auto;
+       
+        
+    }
+
+    .index-popular-project .thumbnail {
+        width: 100%;
+        height: 200px;
+    }
+    /*
+    .index-new-projects {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: auto;
+        margin-left: 60px;
+        overflow: hidden;
+    }
+    */
+
+    .index-new-projects .thumbnail {
+        width: 95%;
+        height: 200px;
+    }
+
+
+
+    .NU_sphere_logo {
+        display: grid;
+        grid-template-columns: auto 40px;
+        grid-gap: 30px;
+    
+    }
+    
+    .sidde-bar {
+        position: fixed;
+        top: 0;
+        width: 78px;
+        margin: 0;
+        height: 100%;
+    }
+    .sidde-bar1 {
+        height: 100%;
+    }
+    .sidde-bar1 ul {
+        margin-top: 60px;
+    }
+
+    .sidde-bar1 {
+        width: 78px;
+        margin: 0;
+       
+    }
+    .NU_sphere_logo h2 {
+        display: none;
+    }
+   
+    .unorder-list {
+        
+        margin: 60px 0 0 0;
+        padding: 0 10px;
+    }
+    .NU_sphere_logo{
+        display: none;
+    }
+
+    .NU_sphere_logo h1 {
+        text-align: center;
+        display: inline-block;
+        position: fixed;
+        top: -7px;
+        left: 18px;
+        
+        
+        
+        
+    }
+
+    .NU_sphere_logo a {
+        display: none;
+    }
+
+    .unorder-list ul {
+        margin-top: 60px;
+    }
+    .unorder-list ul li{
+        text-align: center;
+        width: 43px;
+        margin: 3px;
+
+    } 
+
+    .unorder-list ul li a {
+        width: 40px;
+        margin: 0;
+        padding: 6px;
+        text-align: center;
+    }
+    .unorder-list ul li a span { 
+       display: none;
+    }
+    .unorder-list ul li a i{
+        opacity: 1;
+        font-size: 25px;
+    }
+
+
+
+    /*
+    .content-search {
+       width: 100%;
+       margin: 0;
+       display: grid;
+
+
+    }
+
+    .unorder-list ul {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto auto auto auto ;
+        margin: 0;
+    }
+    .unorder-list ul li a {
+        font-size: 15px;
+        width: auto;
+        padding: 0;
+        padding-left: 5px;
+        display: grid;
+        grid-template-columns: 20px auto;
+    }
+    .unorder-list ul li a.hide {
+        display: none;
+    }*/
+  /*
+    .new-popular {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-rows: auto auto;
+    }
+
+    .container{
+        padding-left: 100px;
+        width: 100%;
+    }
+
+    
+
+    .see-all {
+        margin: 0;
+        display: grid;
+        grid-gap: 20px;
+        width: auto;
+        grid-template-columns:auto 100px;
+       
+        
+    }
+
+    .all-projects {
+        width: 100%;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto ;
+        
+    }
+    .project .thumbnail {
+        width: auto;
+        height: 170px;
+        
+        
+    }
+
+    
+
+    .project .details {
+        
+        margin-bottom: 120px;
+    }
+
+    p.introduction {
+        font-size: 20px;
+        width: auto;
+        height: 70px;
+        margin-top:30px;
+    }
+
+    .project a.click-here {
+        font-size: 18px;
+        padding: 10px;
+        width: auto;
+        height: auto;
+        position: absolute;
+        margin-top: 180px;
+    
+    }
+
+    .featured{
+       padding-left: 100px ;
+        width: 100%;
+    }
+    .feature-box{
+        overflow: hidden;
+        margin: 0;
+        width: 100%;
+        display: grid;
+
+        
+    }
+    .subfatured {
+        width: 100%;
+        display: grid;
+
+    
+    }
+
+    .subfatured a.fearture-icon {
+        display: block;
+        width: auto;
+        height: 150px;
+        font-size: 120px;
+        padding-top: 15px;
+    }
+
+    .bottom-see a {
+        display: block;
+        width: 80%;
+        margin-bottom: 20px;
+        border-radius: none;
+    }*/
+
+    /*.sidde-bar1 {
+        width: 100%;
+        height: 200px;
+        display: grid;
+        position: unset;
+        margin: 5px;
+       
+    }*/
+
+    /*.container1{
+        margin: 5px;
+        width: 100%;
+        border-radius: unset;
+    }
+    .content-search1 {
+        width: 100%;
+        margin: 0;
+        display: grid;
+ 
+ 
+     }
+
+    .new-projects1 {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: auto;
+    }
+
+    .project1 .thumbnail1 {
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+        
+    }
+
+    .project .thumbnail {
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+        
+    }
+
+    .project1 .thumbnail1:hover {
+        transform: scale(1.2);
+
+    }
+
+    .project1 span {
+        position: absolute;
+        margin-top: 30px;
+    }
+
+    .project1 p.intro {
+        
+        font-size: 17px;
+        width: auto;
+        height: 70px;
+        margin-top: 80px;
+    }
+
+    .project1 a.finder {
+        font-size: 18px;
+        padding: 0 10px;
+        
+        height: auto;
+        position: absolute;
+        margin-top: 180px;
+    
+    }*/
+
+    .unorder-list ul li {
+        position: relative;
+    }
+    .tooltip {
+        position: absolute;
+        top: 0;
+        left: 122px;
+        transform: translate(-50%, -50%);
+        background: #02e8f0;
+        color: black;
+        font-weight: bold;
+        box-shadow: 2px 5px  10px gray;
+        line-height: 35px;
+        text-align: center;
+        border-radius: 6px;
+        width: 122px;
+        height: 35px;
+        display: block;
+        transition: 0s;
+        pointer-events: none;
+        opacity: 0;
+    }
+    
+    .unorder-list ul li:hover .tooltip{
+        transition: all .5s ease;
+        opacity: 1;
+        top: 50%;
+    
+    } 
+
+    /*.container1*/
+    .container1 {
+        margin-left: unset;
+        display: grid;
+        padding-left: 100px;
+        
+    }
+
+    .content-search1 {
+        display: grid;
+        grid-gap: 10px;
+        width: auto;
+    }
+
+    .new-projects1 {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: auto;
+        width: 100%;
+    }
+
+    .thumbnail1 {
+        width: 100%;
+        height: 200px;
+        border-radius: 5px;
+        transition: 1.5s all ease-in-out;
+    }
+
+    /*23-10-2021*/
+
+    
+    .content-container {
+        display: block;
+       
+        
+    }
+
+    .all-projects {
+        display: block;
+        
+    }
+    .project {
+        margin-top: 20px;
+        margin-left: 40px;
+        width: 100%;
+       
+
+    }
+    .thumbnail {
+        width: 100%;
+    }
+
+    .see-all {
+        display: block;
+        margin-left: 60px;
+
+    }
+
+    .see-all a {
+        display: none;
+    }
+
+    .responsive-see-all-link {
+        display: block;
+        width: 50%;
+        text-decoration: none;
+        background-image: linear-gradient(to right, rgba(153, 13, 106, 0.986), rgba(228, 5, 5, 0.952) );
+        color: whitesmoke;
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: .5px;
+        box-shadow: 2px 2px 4px gray;
+        border-radius: 20px;
+        font-weight: 600;
+        margin: auto;
+        margin-top: 20px;
+    }
+     
+    .responsive-see-all-link:hover {
+        background-image:linear-gradient(to left, rgb(7, 166, 214), yellow);
+        font-weight: bold;
+        color: black;
+        transition: 1s;
+    }
+    .featured {
+        display: block;
+        width: 78%;
+        margin: 20px 100px;
+    }  
+    .feature-box {
+        margin: auto;
+    }
+    .subfatured{
+    margin: 10px;
+    }
+    .subfatured a.fearture-icon {
+        width: 100%;
+        height: 100px;
+        font-size: 70px;
+        
+    }
+
+    .bottom-see a {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+
+    .index-new-projects {
+        display: block;
+        width: 95%;
+        margin: 0 25px;
+       
+    }  
+
+    .index-popular-project {
+        display: block;
+        width: 95%;
+        margin: 0 25px;
+        
+    }
+  
+    .new-popular {
+        display: unset;
+    }
+
+
+}
+
