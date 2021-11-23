@@ -172,15 +172,28 @@ li#current a {
     }
 
 li#current a i {
-    color: white;
+    color: black;
 }
 #current span{
-    color: #e8491d;
+    color: black;
     font-weight: bold;
 }
 
-#current:hover span {
-    color: white;
+#current:hover a {
+    background-image: linear-gradient(to right, rgba(228, 5, 5, 0.836), rgba(153, 13, 106, 0.836) );
+    color: #ffff;
+    border-radius: 4px;
+    transition: .3s;
+    box-shadow: 2px 2px 5px black;
+
+}
+#current:hover a i{
+    background-image: linear-gradient(to right, rgba(228, 5, 5, 0.836), rgba(153, 13, 106, 0.836) );
+    color: #ffff;
+    border-radius: 4px;
+    transition: .3s;
+    box-shadow: 2px 2px 5px black;
+
 }
 /*-------------------unorder-list ul li a-----------------*/
 
