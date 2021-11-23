@@ -100,8 +100,28 @@ input.sea-input {
     box-shadow: 2px 2px 10px rgb(170, 168, 168);
 }
  
-/*---------------This is NU Sphere Logo & Img part---------------------*/
- 
+/*-------------------O3 coderz Logo---------------------*/
+
+.NU_sphere_logo {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto 98px auto;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-align: center;
+    padding-right: 40px;
+    font-size: 20px;
+}
+.NU_sphere_logo h1{
+    color: rgb(252, 84, 0);
+}
+
+.NU_sphere_logo h2 {
+    margin-left: -28px;
+    color: #2b9001;
+}
+/*-- 
 .NU_sphere_logo {
     display: grid;
     grid-gap: 20px;
@@ -113,6 +133,7 @@ input.sea-input {
     padding-right: 40px;
     font-size: 28px;
 }
+---*/
 
 /*-----------------------menu icon------------------------------*/
 
@@ -122,12 +143,7 @@ input.sea-input {
     font-size: 25px;
 }
 
-/*------------------------------logo img--------------------------*/
 
-.NU_sphere_logo img {
-    width: 140px;
-    height: 40px;
-}
 
 /*---------------------------This is a side bar--------------------*/
  
@@ -144,6 +160,18 @@ input.sea-input {
 
 .unorder-list ul li{
     height: 50px ;
+    width: 180px;
+}
+
+/*-----------------current-----------------------*/
+
+#current span{
+    color: #e8491d;
+    font-weight: bold;
+}
+
+#current:hover span {
+    color: white;
 }
 /*-------------------unorder-list ul li a-----------------*/
 
@@ -152,7 +180,6 @@ input.sea-input {
     grid-template-columns: 30px auto;
     align-items: center;
     margin: 5px;
-    width: 150px;
     font-size: 20px;
     color: gray;
     text-decoration: none;
@@ -162,12 +189,16 @@ input.sea-input {
  
 /*------------------unorder-list ul li a hover----------------*/
  
-.unorder-list ul li a:hover {
+.unorder-list ul li:hover a{
     background-image: linear-gradient(to right, rgba(228, 5, 5, 0.836), rgba(153, 13, 106, 0.836) );
     color: #ffff;
     border-radius: 4px;
     transition: .3s;
     box-shadow: 2px 2px 5px black;
+}
+
+.unorder-list ul li:hover a i {
+    color: #FFFFFF;
 }
  
  
