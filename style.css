@@ -165,7 +165,15 @@ input.sea-input {
 }
 
 /*-----------------current-----------------------*/
+li#current a {
+    background-image:  linear-gradient(to left, rgb(7, 166, 214), yellow);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+    }
 
+li#current a i {
+    color: white;
+}
 #current span{
     color: #e8491d;
     font-weight: bold;
@@ -182,7 +190,7 @@ input.sea-input {
     align-items: center;
     margin: 5px;
   text-transform: capitalize;
-    font-size: 20px;
+    font-size: 22px;
     color: gray;
     text-decoration: none;
     padding: 0px 15px;
