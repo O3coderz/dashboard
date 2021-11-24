@@ -430,14 +430,16 @@ i.seainput.fas.fa-chevron-circle-right:hover{
 
 p.introduction {
     background-color: #333;
-    color: white;
+    color: #ffffff;
     font-size: 16px;
     position: absolute;
     width: 170px;
-    margin: -40px auto auto 35px;
+    text-transform: capitalize;
+    margin: -40px auto auto 20px;
     padding: 5px 12px;
     line-height: 20px;
     border-radius: 5px;
+    text-align: center;
     align-items: center;
     transition: 1s all ease-in-out;
     opacity: 0;
