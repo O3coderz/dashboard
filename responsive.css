@@ -459,8 +459,8 @@
     }
     .featured {
         display: block;
-        width: 78%;
-        margin: 20px 100px;
+        width: 80%;
+        margin: 20px 106px;
     }  
     .feature-box {
         margin: auto;
@@ -473,7 +473,7 @@
         width: 300%;
         height: 140px;
         font-size: 72px;
-        margin-left: 10px;
+        margin-left: 18px;
         
     }
     
