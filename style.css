@@ -535,6 +535,9 @@ p.introduction {
     height: 80px;
     text-decoration: none;
     font-size: 40px;
+    background: linear-gradient(#7c0a0a, red, #63fe02,#3e7676, #f809f8 ,#0101f6,#9309f8,#02fe02 );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     
     /*-------------
     display: grid;
