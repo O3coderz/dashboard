@@ -505,7 +505,7 @@ hr {
 
 @keyframes bootstrap {
     to {
-        width: 30%;
+        width: 80%;
         background: linear-gradient(to left,  #f802bb, #fc0341 ) ;
     }
 }
@@ -516,7 +516,7 @@ hr {
 
 @keyframes jQuery {
     to {
-        width: 25%;
+        width: 50%;
         background: linear-gradient(to left,  #f802bb, #fc0341 ) ;
     }
 }
